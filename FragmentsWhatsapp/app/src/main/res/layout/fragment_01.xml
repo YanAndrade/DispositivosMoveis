@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".Fragment01">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"/>
+    <TextView
+            android:text="Conversa 1"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content" android:id="@+id/textView"
+            android:layout_marginTop="80px"
+            android:layout_marginLeft="200px"
+    />
+
+    <TextView
+            android:text="Bom dia fulano"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" android:id="@+id/textView2"
+            android:layout_marginTop="150px"
+            android:layout_marginLeft="200px"
+    />
+
+    <TextView
+            android:text="18:00"
+            android:layout_width="46dp"
+            android:layout_height="wrap_content" android:id="@+id/textView3"
+            android:layout_marginTop="80px"
+            android:layout_marginLeft="900px"
+
+    />
+
+    <ImageView
+            android:layout_height="72dp"
+            android:layout_width="62dp"
+            android:src="@drawable/myimage"
+            android:layout_marginTop="45px"
+
+    />
+
+</FrameLayout>
