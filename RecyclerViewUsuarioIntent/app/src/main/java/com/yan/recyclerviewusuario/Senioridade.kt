@@ -1,7 +1,7 @@
 package com.yan.recyclerviewusuario
 
 enum class Senioridade(val nome: String) {
-    SENIOR("Senior"),
+    JUNIOR("Junior"),
     PLENO("Pleno"),
-    JUNIOR("Junior")
+    SENIOR("Senior")
 }

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RetrofitCep</string>
+    <string name="edtHintCEP"/>
+</resources>
